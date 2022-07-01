@@ -208,5 +208,43 @@ Initial public offering
 
 An IB can choose to sell to large institutional investors before placing the stock on exchanges. This is the primary market and the secondary market is where the security is traded after IPO ie exchanges.
 
+*Primary Market*: Securities sold before going to the market
 
+*Secondary Market* : Securities sold on the market
+
+### What is the capital assets price model ?
+
+The capital assets price model (CAPM) is used to calculate the expected/required return on equity. Or the cost of equity of a company.
+
+> CAPM = Risk free rate + Stock volatility*Market risk premium
+
+### What is the risk free rate ?
+
+The rate from risk free borrows rated AAA, such as the government. Usually calculated from the 10 year bond yield.
+
+### What is Beta ?
+
+Beta is the relative volatility or risk of a given investment compared to the market.
+
+- $\beta$ < 1 is less volatile than the market 
+- $\beta$ > 1 more volatile than the market
+
+- $\beta$ < 0 opposite the market (Gold has negative beta)
+
+if $\beta$=1.2 the security is 20% more volatile than the market
+
+### How can you make the cash flow statment using balance sheet and income statment ?
+
+The balance sheet for the beginning and end of a period + the income statment from the end of a period gives you cash flows.
+
+### When is an asset capitalized instead of expensed ?
+
+If the benefits of the asset are retrieved over a long period of time then its capitalized otherwise expensed.
+
+Expenditures have benefits realized over a period and therefore depreciate. Expenses are immediately realized.
+
+### How is amortization, depreciation and expenses shown in the statements ?
+
+- Non cash expenses (amortization and depreciation) reduce the income statment but increase the cash flow.
+- Cash expenses reduce the cash flow.
 
