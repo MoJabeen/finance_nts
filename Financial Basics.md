@@ -248,3 +248,54 @@ Expenditures have benefits realized over a period and therefore depreciate. Expe
 - Non cash expenses (amortization and depreciation) reduce the income statment but increase the cash flow.
 - Cash expenses reduce the cash flow.
 
+### What is market risk premium ?
+
+Excess required to choose stocks over risk free securities.
+
+> Average return on market - risk free rate (yield on a 10 year treasury bond)
+
+### How would you value a company with no revenue ?
+
+Using the projected cash flow of the company, create a DCF model. 
+
+### What is a tax shield ?
+
+Is the tax saving from interest expenses.
+
+### What is the weighted average cost of capital ?
+
+$WACC = \sum (rate of return on security) * (Market value of outstanding securities) MV/ \sum{MV}$
+
+Summed over the number of sources of capital
+
+## Capital structure
+
+- There are multiple layers of debt and equity used to structure a company. The layers have a different order in repayment during a bankruptcy or default.
+
+### What is the standard capital structure ?
+
+The order shown below is the in order of pay outs in response to a bankruptcy.
+
+**DEBT:**
+
+- Senior 
+- Mezzanine
+- Subordinated
+
+**Equity:**
+
+- Preffered
+  - Pays out a dividend
+  - In a bankruptcy preferred to common stock
+- Common stock
+  - Can be entitled to company profits
+  - No rights to company assets
+  - Lowest priority in bankruptcy
+
+### When is equity preferred to debt ?
+
+- If share prices is overpriced it is a good time to issue equity
+- Investments are short term unable to pay interest
+- A need to pay down the debt
+- Owners want to monetize their investment
+
