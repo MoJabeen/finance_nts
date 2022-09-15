@@ -259,6 +259,24 @@ Horizontal lines on a chosen base line (high and low) at 23.6,38.2,50,61.8,78.6\
 
 \section{Metrics}
 
+\subsection{What is delta ?}
+
+Delta is the difference between number of buyers at ask price and number of sellers at bid price.
+
+\[ Delta = Volume\:of\:transactions\:at\:ask\:price - volume\:of\:transactions\:at\:bid\:price \]
+
+This shows the strength of the buyers and sellers (if >0 Stronger buying pressure, if <0 stronger 
+selling pressure)
+
+\subsubsection{What is cumlative delta ?}
+
+This delta summed.
+
+\subsubsection{What happens when delta and price diverge ?}
+
+If the price hits a new high and cum delta does not this signals buyers are exhausted and sell pressure will
+push down the price with a sell off. Vice versa.
+
 \subsection{What is a stochastic Oscillator ?}
 
 This is a value between 0-100 (Oscillator) that confirms a trends reversal.
@@ -291,6 +309,10 @@ The sum is over 14 periods of chosen average period.\\
 
 Measure of gain to loss ratio, standardized between 0-100 and smoothed over many periods. At 100 x gain to loss RSI step one would become 100.
 
+\subsection{What is True Strength Index (TSI)?}
+
+
+
 \subsection{MACD (Moving Average Convergence Divergence)}
 
 \[ MACD = 12\:day\:EMA - 24\:day\:EMA \] 
@@ -314,6 +336,10 @@ days: Days in EMA.\\
 As the days increase the weighting is reduced for the newest day.\\
 
 To calculate the first EMA use SMA.
+
+\subsubsection{What is double EMA ?}
+
+\[ DEMA = 2*EMA - EMA(EMA) \]
 
 \subsection{What is the PPO ?}
 
