@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1663267188 "/Users/mohammadjabeen/Desktop/Notes/Finance_Nts/Trading Analysis/main.tex" "main.pdf" "main" 1663267189
-  "/Users/mohammadjabeen/Desktop/Notes/Finance_Nts/Trading Analysis/main.tex" 1663267187 20207 f6cc75c92151d4511ae28786aa8fa29f ""
+["pdflatex"] 1663309664 "/Users/mohammadjabeen/Desktop/Notes/Finance_Nts/Trading Analysis/main.tex" "main.pdf" "main" 1663309664
+  "/Users/mohammadjabeen/Desktop/Notes/Finance_Nts/Trading Analysis/main.tex" 1663309662 23848 0066630a19c649e6b72ded02e4b90d19 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1136768653 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
@@ -117,9 +117,11 @@
   "Figures//ElliottWaveTheory.jpg" 1662649137 101294 b07783fdd98b7979d580415b498c76f0 ""
   "Figures//Pennant3.jpg" 1662661721 31678 d150d0c18dfaa5852c95520fe725093e ""
   "Figures//UnderstandingBasicCandlestickCharts.jpg" 1662772868 54453 71080c9c6fabb91baa1db38d1270926d ""
+  "Figures//butterfly.png" 1663304919 132890 2e0f18c6ee1f1d9e4fb8bf20c4a58895 ""
   "Figures//flag.jpg" 1662594636 79899 f228d8e5c00d9a6e7d74c3dbc4bcebc4 ""
-  "main.aux" 1663267189 7735 dc8c38e6b125aed8e780d4cc1cd64af8 "pdflatex"
-  "main.tex" 1663267187 20207 f6cc75c92151d4511ae28786aa8fa29f ""
+  "Figures//gartley.png" 1663305479 125260 a5a9a48e682c10083bd1af4333eb1a1c ""
+  "main.aux" 1663309664 9551 2c8ebae8814c4dfc9f07d0c9bf43b21e "pdflatex"
+  "main.tex" 1663309662 23848 0066630a19c649e6b72ded02e4b90d19 ""
   "structure.tex" 1660150962 3604 5072145dbc6f610fa0f451681f59ddd8 ""
   (generated)
   "main.aux"

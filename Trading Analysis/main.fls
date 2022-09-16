@@ -669,6 +669,16 @@ INPUT ./Figures//DoubleBottomDefinition2.jpg
 INPUT Figures//DoubleBottomDefinition2.jpg
 INPUT ./Figures//DoubleBottomDefinition2.jpg
 INPUT ./Figures//DoubleBottomDefinition2.jpg
+INPUT ./Figures//butterfly.png
+INPUT ./Figures//butterfly.png
+INPUT Figures//butterfly.png
+INPUT ./Figures//butterfly.png
+INPUT ./Figures//butterfly.png
+INPUT ./Figures//gartley.png
+INPUT ./Figures//gartley.png
+INPUT Figures//gartley.png
+INPUT ./Figures//gartley.png
+INPUT ./Figures//gartley.png
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futmii.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mlit.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm
@@ -677,6 +687,9 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futri8r.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futsy.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-ms.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futmi.vf
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futr8t.vf
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futmi.vf
 INPUT ./Figures//ElliottWaveTheory.jpg
 INPUT ./Figures//ElliottWaveTheory.jpg

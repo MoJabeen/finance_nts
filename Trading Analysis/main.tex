@@ -152,6 +152,19 @@ too many requirements for this filter as trades will be too rare.
 
 Trade trigger is the point a trade should be entered.
 
+\subsection{What are the types of orders?}
+
+\textbf{Spot/Market:} Buy at the current price on the market.\\
+\textbf{Limit:} Set the price boundary (max for buy and min for sell).\\
+\textbf{Stop:} If price hits chosen value then DO (buy or sell).
+
+\subsection{What is the Principle of Polarity?}
+
+\begin{itemize}
+	\item Former support will turn into the resistance
+	\item Former resistance will turn into the support
+\end{itemize}
+
 \section{Patterns}
 
 \subsection{Flags}
@@ -238,6 +251,40 @@ Follows the pattern: Drop, rebound, drop, rebound.
 
 The Double top is the same but reversed.
 
+\subsection{Ascending triangle}
+
+Two horizontal highs and a rising low shows bullish momentum is building.
+
+\subsection{Descending triangle in reverse}
+
+Two horizontal lows and a reducing high shows bearish movement.
+
+\subsection{Triple top/bottom}
+
+Similar to the double top/bottom but triple.
+
+\subsection{Butterfly}
+
+A bearish pattern showing a reversal after a bounce back that extends further than the previous high.
+
+\begin{figure}[t] % [h] forces the figure to be output where it is defined in the code (it suppresses floating)
+	\centering
+	\includegraphics[width=0.8\columnwidth]{butterfly.png} % Example image
+	\caption{butterfly pattern}
+\end{figure}
+
+The bullish version starts with an uptrend with a bounce back that extends further than the prev low.
+
+\subsection{Gartley Pattern}
+
+Shows an expected uptrend after two bounce backs.
+
+\begin{figure}[t] % [h] forces the figure to be output where it is defined in the code (it suppresses floating)
+	\centering
+	\includegraphics[width=0.8\columnwidth]{gartley.png} % Example image
+	\caption{Gartley pattern}
+\end{figure}
+
 \section{Fibonacci tools}
 
 Fibonacci series is present regularly in nature, a series of number created from the addition of the
@@ -311,7 +358,85 @@ Measure of gain to loss ratio, standardized between 0-100 and smoothed over many
 
 \subsection{What is True Strength Index (TSI)?}
 
+If positive bullish if negative bearish, measures the momentum in a direction.
 
+\[ TSI = 100*(PCDS/APCDS) \]
+
+\[ PriceChange(PC) = Close\:Price -Prev\:Close\:Price \]
+\[PCS = EMA_{25}(PC) \]
+\[PCDS = EMA_{13}(PCDS) \]
+\[ APC = Abs(PC) \]
+\[ APCS = EMA_{25}(APC) \]
+\[ APCDS = EMA_{13}(APCS) \]
+
+\subsection{What is on balance volume ?}
+
+A running total of volume (if less than prev close negative if more positive).
+
+\[ OBV = OBV_{prev} + (+/-)volume\]
+
+\subsection{What is William \%R?}
+
+An oscillator between 0-100.
+
+Shows overbought and oversold levels similar to RSI.
+
+\[ \%R = \frac{Highest\:High - Close}{Highest\:High - Lowest Low} \]
+
+\subsection{What is the Average Directional Index (ADX)?}
+
+\begin{itemize}
+	\item Indicates trend strength
+	\item 0-100
+	\item <20 weak
+	\item >40 strong 
+\end{itemize}
+
+Shows how strong movement is in one direction in comparison to a combination of both.
+
+\[ UpMove = Todays\:High - Yesterdays\:High \]
+\[ DownMove = Yesterdays\:Low - Todays\:Low \]
+
+If UpMove > DownMove \& > 0, DM+ = UpMove else DM+=0.\\
+If DownMove > UpMove \& > 0, DM- = DownMove else DM-=0.
+
+\[ DI+ = 100 * \frac{EMA(DM+)}{ATR(DM+)} \]
+\[ DI- = 100 * \frac{EMA(DM-)}{ATR(DM-)} \]
+
+\[ ADX = 100 * EMA(\frac{DI+ - DI-}{DI+ + DI-}) \]
+
+\subsection{What is Commodity Channel Index (CCI)}
+
+Compares price change to volatility
+
+\begin{itemize}
+	\item Spot reversals
+	\item Price Extensions
+	\item Shows trend strength
+	\item >100 overbought
+	\item <-100 oversold
+\end{itemize}
+
+\[ CCI = \frac{Price - SMA}{1.5\% * Mean Deviation} \]
+
+\[ CCI = \frac{Price - SMA}{STD} \]
+
+\subsection{What is the Ultimate Oscillator?}
+
+\begin{itemize}
+	\item < 30 oversold
+	\item > 70 overbought
+	\item Shows buying pressure
+\end{itemize}
+
+\[ BP = Close\:Price - Min(Low,Prev Close) \]
+\[ TR = Max(High,Prev Close) - Min(Low, Prev Close) \]
+
+\[ A_7 = \Sigma(BP/TR) \]
+
+\[ UO = \frac{4A_8 + 2A_{14} + A_{28}}{7} *100 \]
+
+Shows how strong BP is with a stronger weighting on the most recent BP.
 
 \subsection{MACD (Moving Average Convergence Divergence)}
 
@@ -419,6 +544,11 @@ these two in conjunction can represent trends.
 \end{itemize}
 
 A series of set candle patterns indicate price movements, trends and momentum.
+
+\subsection{What is breakout and emerging?}
+
+\textbf{Breakout:} Strong change in momentum (Intra)\\
+\textbf{Emerging:} Building momentum (Swing)
 
 \subsection{Bearish engulfing pattern}
 
