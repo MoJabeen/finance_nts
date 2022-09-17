@@ -123,12 +123,49 @@ For coin based:
 
 \[ Profit/Loss = (1/Entry\:Price - 1/Exit\:Price) * position\:size \]
 
+\subsection{Open loss}
+
+When shorting there is an open loss:
+
+\[ Open\:loss = order\:size * Abs(min(0,-1*(mark\:price - entry\:price)))\]
+
 \subsection{Unrealized P/L}
 
 Uses mark price instead of exit price. 
 
 \[ ROE = unrealised\:P/L \div \frac{position\:size * mark\:price}{leverage} \]
 \[ ROE = \frac{unrealised\:P/L}{entry\:margin} \] 
+
+
+\[ ROE = \frac{Profit}{Inital Margin} = (\frac{Exit}{Entry} - 1) * leverage \]
+
+\subsection{Target Price}
+
+\[ LONG: Target\:price = entry\:price*(1+ \frac{ROE}{leverage}) \]
+\[ SHORT: Target\:Price = entry\:price * (1-\frac{ROE}{leverage}) \]
+
+\subsection{Price Index}
+
+This is essentially the spot price of the underlying asset. The average price on the major markets.
+
+\subsection{Mark Price}
+
+The primary component of the mark price is the price index. The mark price is used to calculate the
+unrealised P/L and determine if a margin call is required.
+
+\[ Mark\:price = Median*(Price1,Price2,Contract\:Price) \]
+\[ Price1 = Price\:Index * (Last\:Funding\:Rate*\frac{Time until funding}{8}) \]
+\[ Price2 = Price\:Index + Moving\:average_{5min}(\frac{Bid1+Ask1}{2} - Price\:Index) \]
+
+The price is the controlled to be between the contract price, the diff between the contract price and
+spot price and the funding rate at that moment.
+
+\subsection{Difference between coin based and USD based futures}
+
+Coin based is settled in the contracts underlying asset.\\
+USD based is settled in USDT or BUSD.
+
+\section{Other}
 
 \section{Binance leveraged tokens}
 
@@ -137,16 +174,25 @@ Tokens traded on the spot market that allow access to leverage without holding f
 Uses variable leverage not constant, which has benefits for longer term holding.Charges a daily fee of
 0.01\% fee.
 
-\section{Other}
-
 \subsection{What is Time weighted average price (TWAP) ?}
 
 Attempts to have a minimum impact on the market with large orders. Will break it into smaller orders
 executed over a period of time.
 
-\section{Understanding Text}
+\subsection{Liquidity Analysis ?}
 
-\subsubsection{subsubsection}
+Binance offers liquidity analysis tools.
+
+\subsection{Volume participation algorithm}
+
+Trade at a pace matching a portion of the real time market volume with respect to the target.
+
+Good to use when making orders larger than the market liquidity while trying to minimize impact on the
+market.
+
+\subsection{Binance Portfolio management program}
+
+Asset portfolio to track equity, margin value and maintenance margin requirements.
 
 %----------------------------------------------------------------------------------------
 %	FIGURE EXAMPLE
