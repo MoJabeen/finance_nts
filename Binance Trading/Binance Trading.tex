@@ -61,9 +61,88 @@ Futures price = spot price + premium (can be positive or negative)
 
 Fee is charged at entry and exit.
 
-\subsection{Subsection}
+\subsection{What is funding rates ?}
 
-paragraph
+Periodic payment is taken from traders, which is based on the difference between contract price and the
+underlying asset spot price. This fee is designed to force the convergence between spot price and 
+contract.
+
+\[ Funding\:Amount = Nominal\:value\:of\:position * funding\:rate \]
+\[ Nominal\:value = Mark\:price * contract\:size \]
+
+Funding rate is taken every 8 hours at set times: 0:00, 8:00, 16:00 UTC.
+
+\[ Funding\:rate = average\:premium\:index + clamp(interest\:rate - premium\:index, 0.05,-0.05) \] 
+
+If interest rate - premium index is between -0.05 and 0.05 then the funding rate is equal to the
+interest rate. Interest rate 0.03\%.
+
+\subsection{What are the different prices?}
+
+\textbf{Last price:} Last cost of contract (used to calculate realized P/L)\\
+\textbf{Mark price:} Similar to the spot price (unrealized P/L)
+
+\subsection{What triggers a margin call ?}
+
+Liquidation is triggered at a margin call.
+
+\[ Collateral = Inital\:collateral + realised\:PnL + unrealised\:PnL < maintenance margin \]
+
+\[ margin\:ratio = maintenance\:margin/margin\:balance \]
+
+Margin ratio is suggested to be < 80\%.
+
+If a margin call occurs your position will be liquidated and all open position closed. It may not be
+completely liquidated depends on position size.
+
+\textbf{There will also be a liquidation fee based on the amount liquidated!!}
+
+\subsection{What happens if you go bankrupt ?}
+
+If the wallet hits a negative amount after liquidation, the fund will set the balance back to 0.
+
+\subsection{What is the insurance funds ?}
+
+The insurance fund covers bankrupted traders, its is funded from funding rates.
+
+\subsection{What is auto-deleveraging ?}
+
+If the fund can not cover bankruptcy, counter parties will be liquidated. Most profitable and higher
+leverage trades are liquidated first. There are indicators showing your position in the auto deleverage
+queue.
+
+\section{Profit and loss}
+
+For USD based:
+
+\[ Profit/Loss = (Entry\:Price - Exit\:Price)* position\:size \]
+
+(if a short multiply by -1)
+
+For coin based:
+
+\[ Profit/Loss = (1/Entry\:Price - 1/Exit\:Price) * position\:size \]
+
+\subsection{Unrealized P/L}
+
+Uses mark price instead of exit price. 
+
+\[ ROE = unrealised\:P/L \div \frac{position\:size * mark\:price}{leverage} \]
+\[ ROE = \frac{unrealised\:P/L}{entry\:margin} \] 
+
+\section{Binance leveraged tokens}
+
+Tokens traded on the spot market that allow access to leverage without holding future contracts.
+
+Uses variable leverage not constant, which has benefits for longer term holding.Charges a daily fee of
+0.01\% fee.
+
+\section{Other}
+
+\subsection{What is Time weighted average price (TWAP) ?}
+
+Attempts to have a minimum impact on the market with large orders. Will break it into smaller orders
+executed over a period of time.
 
 \section{Understanding Text}
 
