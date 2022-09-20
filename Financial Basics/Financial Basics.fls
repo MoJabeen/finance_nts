@@ -502,6 +502,67 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlayer.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlayer.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrkbase.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlfile.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/breqn.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/breqn.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/breqn.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/breqn.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/breqn.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/breqn.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/breqn.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/breqn.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/breqn.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/breqn.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/breqn.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/flexisym.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/flexisym.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/flexisym.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/flexisym.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/flexisym.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/flexisym.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/flexisym.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/flexisym.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/flexisym.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/flexisym.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/flexisym.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/cmbase.sym
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/cmbase.sym
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/cmbase.sym
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/cmbase.sym
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/cmbase.sym
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/cmbase.sym
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/cmbase.sym
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/cmbase.sym
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/cmbase.sym
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/cmbase.sym
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/cmbase.sym
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/mathstyle.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/mathstyle.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/mathstyle.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/mathstyle.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/mathstyle.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/mathstyle.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/mathstyle.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/mathstyle.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/mathstyle.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/mathstyle.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/breqn/mathstyle.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
 INPUT ./Financial Basics.aux
 INPUT Financial Basics.aux
 INPUT Financial Basics.aux
@@ -661,11 +722,9 @@ INPUT ./Figures//bank debt vs bond.png
 INPUT Figures//bank debt vs bond.png
 INPUT ./Figures//bank debt vs bond.png
 INPUT ./Figures//bank debt vs bond.png
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futmi.vf
 INPUT Financial Basics.aux
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb
