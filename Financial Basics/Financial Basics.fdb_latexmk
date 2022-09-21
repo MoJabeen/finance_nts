@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1663698737 "/Users/mohammadjabeen/Desktop/Notes/Finance_Nts/Financial Basics/Financial Basics.tex" "Financial Basics.pdf" "Financial Basics" 1663698740
-  "/Users/mohammadjabeen/Desktop/Notes/Finance_Nts/Financial Basics/Financial Basics.tex" 1663698737 41268 7d2c0e42436877df658b84b4bb511d70 ""
+["pdflatex"] 1663750179 "/Users/mohammadjabeen/Desktop/Notes/Finance_Nts/Financial Basics/Financial Basics.tex" "Financial Basics.pdf" "Financial Basics" 1663750181
+  "/Users/mohammadjabeen/Desktop/Notes/Finance_Nts/Financial Basics/Financial Basics.tex" 1663750177 41261 e0b73f1de6f5d1a3ae92bb8b395b8fc0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1136768653 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
@@ -118,8 +118,8 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1660065316 2826428 a8301d32520d3ecedcdd4485e83c119a ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "Figures//bank debt vs bond.png" 1659396061 288769 a57f0c228322d4ab10cc0e7124e0fd3f ""
-  "Financial Basics.aux" 1663698739 16735 221f71f7f674609e64d9c84bb0fb1426 "pdflatex"
-  "Financial Basics.tex" 1663698737 41268 7d2c0e42436877df658b84b4bb511d70 ""
+  "Financial Basics.aux" 1663750181 16728 b5bc5ab87dfa9c58085b7b9bbe52e0b5 "pdflatex"
+  "Financial Basics.tex" 1663750177 41261 e0b73f1de6f5d1a3ae92bb8b395b8fc0 ""
   "structure.tex" 1663698049 3623 2ab3c9f264903e2c661755e729583efc ""
   (generated)
   "Financial Basics.aux"
