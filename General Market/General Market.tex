@@ -1,0 +1,188 @@
+% Mo Jabeen Template for docs 
+
+\documentclass[11pt]{scrartcl} % Font size
+
+\input{structure.tex} % Include the file specifying the document structure and custom commands
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\title{	
+	\normalfont\normalsize
+	\vspace{20pt} % Whitespace
+	{\huge General Market Notes}\\ % The meh
+	\vspace{12pt} % Whitespace
+	\rule{\linewidth}{2pt}\\ % Thick bottom horizontal rule
+}
+
+\author{\small Dainish Jabeen} % Your name
+
+\date{\normalsize\today} % Today's date (\today) or a custom date
+
+\begin{document}
+
+\maketitle % Print the title
+
+Every Sunday an update on interesting reading or on general market is added below.
+
+\section{Sun 29 Jan 2023}
+
+\subsection{Financial Times}
+
+\subsubsection{China}
+
+\begin{itemize}
+	\item Majority of chinese growth has come from the property market
+	\item They are trying to transition to a more consumer led economy
+	\item General bullish vibes post 0 covid drop
+	\item There was a recent housing market crash during the lockdown
+\end{itemize}
+
+\subsubsection{Other}
+
+\begin{itemize}
+	\item Recent regional flight company into administration, bearish vibes on local aviation.
+	\item In the energy sector new link between UK and Denmark to utilise danish biomass during
+	low wind periods.
+	\item Current pot of 8.4 GW connection abroad for the up, aiming to make that 18GW by 2030. 
+	(hampered due to brexit).
+	\item Bearish UK policies for RD heavy startups.
+	\item Texas bill to enforce vending machine payment visa crypto payments.
+\end{itemize}
+
+\subsection{FTX Pre mortem substack}
+
+2021 - 2022 80 \% drop in net asset value, 90 \% of assets not very liquid.\\
+
+\textit{FBO account (For benefit of account): Allows avoiding ownership interest and money transmission costs.}\\
+
+States lack of hedging as one of the main issues, "net leverage = (net position - hedge)/net asset value
+as 1.06 showing they we badly hedged.\\
+
+Many crypto platform blew up due to margin position blowing up (ie borrowed positions failing.) FTX blew
+due to large margin position Alameda had on it failing. But doesn't account for why user funds were lost,
+in a lost leverage position? Shows clearly some Bank like partial user fund use.
+
+%----------------------------------------------------------------------------------------
+%	FIGURE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+% \begin{figure}[h] % [h] forces the figure to be output where it is defined in the code (it suppresses floating)
+% 	\centering
+% 	\includegraphics[width=0.5\columnwidth]{IMAGE_NAME.jpg} % Example image
+% 	\caption{European swallow.}
+% \end{figure}
+
+%----------------------------------------------------------------------------------------
+% MATH EXAMPLES
+%----------------------------------------------------------------------------------------
+
+% \begin{align} 
+% 	\label{eq:bayes}
+% 	\begin{split}
+% 		P(A|B) = \frac{P(B|A)P(A)}{P(B)}
+% 	\end{split}					
+% \end{align}
+
+%----------------------------------------------------------------------------------------
+%	LIST EXAMPLES
+%----------------------------------------------------------------------------------------
+
+% \begin{itemize}
+% 	\item First item in a list 
+% 		\begin{itemize}
+% 		\item First item in a list 
+% 			\begin{itemize}
+% 			\item First item in a list 
+% 			\item Second item in a list 
+% 			\end{itemize}
+% 		\item Second item in a list 
+% 		\end{itemize}
+% 	\item Second item in a list 
+% \end{itemize}
+
+%------------------------------------------------
+
+% \subsection{Numbered List}
+
+% \begin{enumerate}
+% 	\item First item in a list 
+% 	\item Second item in a list 
+% 	\item Third item in a list
+% \end{enumerate}
+
+%----------------------------------------------------------------------------------------
+%	TABLE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+% \section{Interpreting a Table}
+
+% \begin{table}[h] % [h] forces the table to be output where it is defined in the code (it suppresses floating)
+% 	\centering % Centre the table
+% 	\begin{tabular}{l l l}
+% 		\toprule
+% 		\textit{Per 50g} & \textbf{Pork} & \textbf{Soy} \\
+% 		\midrule
+% 		Energy & 760kJ & 538kJ\\
+% 		Protein & 7.0g & 9.3g\\
+% 		\bottomrule
+% 	\end{tabular}
+% 	\caption{Sausage nutrition.}
+% \end{table}
+
+%----------------------------------------------------------------------------------------
+%	CODE LISTING EXAMPLE
+%----------------------------------------------------------------------------------------
+
+% \begin{lstlisting}[
+% 	caption= Macro definition, % Caption above the listing
+% 	language=python, % Use Julia functions/syntax highlighting
+% 	frame=single, % Frame around the code listing
+% 	showstringspaces=false, % Don't put marks in string spaces
+% 	numbers=left, % Line numbers on left
+% 	numberstyle=\large, % Line numbers styling
+% 	]
+
+% 	CODE
+
+% \end{lstlisting}
+
+%----------------------------------------------------------------------------------------
+%	CODE LISTING FILE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+% \lstinputlisting[
+% 	caption=Luftballons Perl Script., % Caption above the listing
+% 	label=lst:luftballons, % Label for referencing this listing
+% 	language=Perl, % Use Perl functions/syntax highlighting
+% 	frame=single, % Frame around the code listing
+% 	showstringspaces=false, % Don't put marks in string spaces
+% 	numbers=left, % Line numbers on left
+% 	numberstyle=\tiny, % Line numbers styling
+% 	]{luftballons.pl}
+
+%----------------------------------------------------------------------------------------
+%	BIB EXAMPLE
+%----------------------------------------------------------------------------------------
+
+% Using \texttt{biblatex} you can display a bibliography divided into sections, depending on citation type. 
+% Let's cite! Einstein's journal paper \cite{einstein} and Dirac's book \cite{dirac} are physics-related items. 
+% Next, \textit{The \LaTeX\ Companion} book \cite{latexcompanion}, Donald Knuth's website \cite{knuthwebsite}, \textit{The Comprehensive Tex Archive Network} (CTAN) \cite{ctan} are \LaTeX-related items; but the others, Donald Knuth's items, \cite{knuth-fa,knuth-acp} are dedicated to programming. 
+
+% \medskip
+
+% \printbibliography[
+% heading=bibintoc,
+% title={Whole bibliography}
+% ] %Prints the entire bibliography with the title "Whole bibliography"
+
+% %Filters bibliography
+% \printbibliography[heading=subbibintoc,type=article,title={Articles only}]
+% \printbibliography[type=book,title={Books only}]
+
+% \printbibliography[keyword={physics},title={Physics-related only}]
+% \printbibliography[keyword={latex},title={\LaTeX-related only}]
+
+\end{document}
