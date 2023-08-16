@@ -1,0 +1,398 @@
+% Mo Jabeen Template for docs 
+
+\documentclass[11pt]{scrartcl} % Font size
+
+\input{structure.tex} % Include the file specifying the document structure and custom commands
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\title{	
+	\normalfont\normalsize
+	\vspace{20pt} % Whitespace
+	{\huge Quant}\\ % The meh
+	\vspace{12pt} % Whitespace
+	\rule{\linewidth}{2pt}\\ % Thick bottom horizontal rule
+}
+
+\author{\small Dainish Jabeen} % Your name
+
+\date{\normalsize\today} % Today's date (\today) or a custom date
+
+\begin{document}
+
+\maketitle % Print the title
+
+\section{Maths used in Quantitative Finance?}
+
+The main areas are differential equations and probability theory.\\
+
+Useful mathematical tools:
+
+\begin{itemize}
+	\item Asymptotic analysis
+	\item Series solution
+	\item Discretisation methods
+	\item Green functions
+\end{itemize}
+
+\section{Risk}
+
+Simplest method is using the std of portfolio returns, high standard deviation shows high risk. 
+The central limit theory suggest the average of returns will be normally distributed allowing 
+the use of confidence interval.\\
+
+\textbf{Uncertainty} is when the probabilities of risk are unknown. 
+Risk is based on known probabilities.\\
+
+\textbf{Operational Risk:} Company and technology infrastructure risk.
+
+\subsection{Kelly Criterion}
+
+Most funds are trying to balance the growth rate via leverage with the risk via drawdown. 
+A leverage balancing tool is the Kelly Criterion.
+
+\[ f_i = \frac{\mu_i}{\sigma_i^2} \]
+
+\begin{itemize}
+	\item i:Strategy
+	\item f:Vector of allocation of length N
+	\item $\mu$ Average excess return
+	\item $\sigma$ Variation of excess return
+\end{itemize}
+
+Should be updated periodically using a trailing period over a window (3-6 months). The value
+can be considered as an upper bound for the leverage used.
+
+\subsubsection{Assumptions}
+
+\begin{itemize}
+	\item Gaussian return
+	\item Focus on profit
+	\item All profits are reinvested
+	\item All strategies are independent
+\end{itemize}
+
+\subsection{Value at Risk (VaR)}
+
+VaR is the amount that could be lost from a position, portfolio etc. Generally the maximum loss for a chosen
+confidence interval over a time period.\\
+
+\[ P(L\leq VaR) = 1 -c \]
+
+\begin{itemize}
+	\item c: confidence level
+\end{itemize}
+
+The method used is simulate many realisations of the portfolio using monte carlo method. Using the distribution 
+of values to define a confidence interval. Or can just use a historical data for the distribution. However,
+assumes normal market activity.\\
+
+Time period for VaR used should have a minimum market impact; if applicable.
+
+\subsubsection{Methods to calculate}
+
+\begin{itemize}
+	\item Variance Covariance (Normal Dist)
+	\item Monte Carlo (Non Normal Dist)
+	\item Historic boot strapping
+\end{itemize}
+
+\subsection{Crash Metrics}
+
+Portfolio assessment in extreme market conditions.
+
+\subsection{Properties of coherent risk measurement}
+
+\subsubsection{Sub-additivity}
+
+\[ \rho (X+Y) \leq \rho (X) + \rho (Y) \]
+
+The risk of two portfolios combined cant be worse than the individual risks added.
+
+\subsubsection{Monotonicity}
+
+\[ if X\leq Y \; then \; \rho (X) \leq \rho(Y) \]
+
+\subsubsection{Positive Homogeneity}
+
+\[ \lambda >0 ; \rho(\lambda X) \leq \lambda \rho (X) \]
+
+\subsubsection{Translation Invariance}
+
+\[ constant\; c; \rho (X+c) = \rho (X) -c \]
+
+\section{Performance Measures}
+
+\subsection{General}
+
+Important to compare the performance of strategies to limit opportunity cost, as capital to be allocated is
+limited.\\
+
+General measures:
+\begin{itemize}
+	\item Return
+	\item Drawdown
+	\item Risk
+	\item Risk/Reward ratio
+\end{itemize}
+
+\subsubsection{Returns}
+
+\[ Total\;Return = \frac{P_f - P_i}{P_i} *100 \]
+
+\begin{itemize}
+	\item $P_f$: Final portfolio value
+	\item $P_i$: Inital portfolio value
+\end{itemize}
+
+Portfolio value over time is an equity curve.
+
+\subsubsection{Drawdown}
+
+Drops from high water marks, this being the top of an equity curve.\\
+
+\textbf{Maximum Drawdown:} Largest percentage drop from previous peak to current/previous trough.\\
+
+\textbf{Drawdown duration:} Period of this max drawdown event.\\
+
+Can drawdown plot this over a time series.
+
+\subsection{Trade Analysis}
+
+\begin{itemize}
+	\item Number of wins and losses
+	\item Mean profit
+	\item Win/Loss Ratio
+\end{itemize}
+
+\textbf{Trend Following trades:} Uses found trends to make large trades to overcome small losses.\\
+
+\textbf{Pair trading mean reverting:} Many small wins that can be wiped by big loss.
+
+\subsection{Risk Adjusted}
+
+Usually adjusted for risk, as the high return with low risk is better than high return with high risk.\\
+
+Most popular measurement is the sharpe ratio.
+
+\subsubsection{Sharpe ratio}
+
+\[ Sharpe=\frac{\mu - r}{\sigma } \]
+
+\begin{itemize}
+	\item $\mu$: Return over period (Must use profits)
+	\item $r$: Risk free rate over period (I.e Bond interest rate)
+	\item $\sigma $: std of returns 
+\end{itemize}
+
+Poor at characterising tail risk, as based on normal dist.\\
+
+Generally S>1 is bad.
+
+\subsubsection{Annualised Sharpe}
+
+\[ S_A = \sqrt{N} * Sharpe \]
+
+\begin{itemize}
+	\item N: Periods (used in Sharpe) over a year 
+\end{itemize}
+
+\subsubsection{Sortino Ratio}
+
+Same as sharpe but uses semi-variance which only has down side risk of to calculate the std.
+
+\subsubsection{Treynor Ratio}
+
+\[ Treynor=\frac{\mu -r}{\beta } \]
+
+\begin{itemize}
+	\item $\beta $: Systematic risk
+\end{itemize}
+
+\subsubsection{Information ratio}
+
+\[ Info = \frac{\mu -r}{Tracking\;error} \]
+
+\subsubsection{Calmar}
+
+\[ CALMAR = \frac{E(R_a-R_b)}{max\;drawdown}\]
+
+\section{Volatility}
+
+Generally measured using annualised std of the returns. But this is not true volatility is
+in truth an instantaneous measurement of randomness not historic.
+
+\section{Back testing}
+
+\subsection{Bias}
+
+There a few types of bias that can cause inaccuracy in back testing:
+
+\subsubsection{Optimisation bias}
+
+Overfitting of model parameters via back testing, can reduce impact via sensitivity analysis.
+
+\subsubsection{Look ahead bias}
+
+\begin{itemize}
+	\item Using data which at the time during back testing should not be available. 
+	\item Data used to train is then used to test.
+	\item Using aggregate values ie average/max/min should be period lagged, 
+	as wont be available at the most recent time point.
+\end{itemize}
+
+\subsubsection{Survivorship bias}
+
+Using only assets that have survived through a period of time. Avoid using data sets with stock delisiting.
+
+\subsubsection{Cognotive bias}
+
+Awareness of the psychological difficulty you can endure a large period of drawdown.
+
+\subsection{Exchange Issues}
+
+\subsubsection{Order type}
+
+Market or limit.
+
+\subsubsection{Price Consolidation}
+
+Careful of composite feeds combining data from exchanges. As a single exchange will be used
+to execute the trade.\\
+
+Foreign exchanges may not require the storage of the trade size and price.
+
+\subsubsection{Transaction Cost}
+
+\begin{itemize}
+	\item Commission
+	\item Stamp Duty (UK Shares ~ 0.5\%)
+	\item Slippage
+	\item Market Impact (For larger orders on illiquid markets)
+	\item Spread (bid - ask price)
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	FIGURE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+% \begin{figure}[h] % [h] forces the figure to be output where it is defined in the code (it suppresses floating)
+% 	\centering
+% 	\includegraphics[width=0.5\columnwidth]{IMAGE_NAME.jpg} % Example image
+% 	\caption{European swallow.}
+% \end{figure}
+
+%----------------------------------------------------------------------------------------
+% MATH EXAMPLES
+%----------------------------------------------------------------------------------------
+
+% \begin{align} 
+% 	\label{eq:bayes}
+% 	\begin{split}
+% 		P(A|B) = \frac{P(B|A)P(A)}{P(B)}
+% 	\end{split}					
+% \end{align}
+
+%----------------------------------------------------------------------------------------
+%	LIST EXAMPLES
+%----------------------------------------------------------------------------------------
+
+% \begin{itemize}
+% 	\item First item in a list 
+% 		\begin{itemize}
+% 		\item First item in a list 
+% 			\begin{itemize}
+% 			\item First item in a list 
+% 			\item Second item in a list 
+% 			\end{itemize}
+% 		\item Second item in a list 
+% 		\end{itemize}
+% 	\item Second item in a list 
+% \end{itemize}
+
+%------------------------------------------------
+
+% \subsection{Numbered List}
+
+% \begin{enumerate}
+% 	\item First item in a list 
+% 	\item Second item in a list 
+% 	\item Third item in a list
+% \end{enumerate}
+
+%----------------------------------------------------------------------------------------
+%	TABLE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+% \section{Interpreting a Table}
+
+% \begin{table}[h] % [h] forces the table to be output where it is defined in the code (it suppresses floating)
+% 	\centering % Centre the table
+% 	\begin{tabular}{l l l}
+% 		\toprule
+% 		\textit{Per 50g} & \textbf{Pork} & \textbf{Soy} \\
+% 		\midrule
+% 		Energy & 760kJ & 538kJ\\
+% 		Protein & 7.0g & 9.3g\\
+% 		\bottomrule
+% 	\end{tabular}
+% 	\caption{Sausage nutrition.}
+% \end{table}
+
+%----------------------------------------------------------------------------------------
+%	CODE LISTING EXAMPLE
+%----------------------------------------------------------------------------------------
+
+% \begin{lstlisting}[
+% 	caption= Macro definition, % Caption above the listing
+% 	language=python, % Use Julia functions/syntax highlighting
+% 	frame=single, % Frame around the code listing
+% 	showstringspaces=false, % Don't put marks in string spaces
+% 	numbers=left, % Line numbers on left
+% 	numberstyle=\large, % Line numbers styling
+% 	]
+
+% 	CODE
+
+% \end{lstlisting}
+
+%----------------------------------------------------------------------------------------
+%	CODE LISTING FILE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+% \lstinputlisting[
+% 	caption=Luftballons Perl Script., % Caption above the listing
+% 	label=lst:luftballons, % Label for referencing this listing
+% 	language=Perl, % Use Perl functions/syntax highlighting
+% 	frame=single, % Frame around the code listing
+% 	showstringspaces=false, % Don't put marks in string spaces
+% 	numbers=left, % Line numbers on left
+% 	numberstyle=\tiny, % Line numbers styling
+% 	]{luftballons.pl}
+
+%----------------------------------------------------------------------------------------
+%	BIB EXAMPLE
+%----------------------------------------------------------------------------------------
+
+% Using \texttt{biblatex} you can display a bibliography divided into sections, depending on citation type. 
+% Let's cite! Einstein's journal paper \cite{einstein} and Dirac's book \cite{dirac} are physics-related items. 
+% Next, \textit{The \LaTeX\ Companion} book \cite{latexcompanion}, Donald Knuth's website \cite{knuthwebsite}, \textit{The Comprehensive Tex Archive Network} (CTAN) \cite{ctan} are \LaTeX-related items; but the others, Donald Knuth's items, \cite{knuth-fa,knuth-acp} are dedicated to programming. 
+
+% \medskip
+
+% \printbibliography[
+% heading=bibintoc,
+% title={Whole bibliography}
+% ] %Prints the entire bibliography with the title "Whole bibliography"
+
+% %Filters bibliography
+% \printbibliography[heading=subbibintoc,type=article,title={Articles only}]
+% \printbibliography[type=book,title={Books only}]
+
+% \printbibliography[keyword={physics},title={Physics-related only}]
+% \printbibliography[keyword={latex},title={\LaTeX-related only}]
+
+\end{document}
