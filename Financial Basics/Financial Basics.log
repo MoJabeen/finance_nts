@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.9)  21 SEP 2022 09:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.9)  27 AUG 2023 17:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -697,32 +697,52 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 7.35999pt on input line 26.
 
 Missing character: There is no ^^L in font fourier-mex!
-LaTeX Font Info:    Trying to load font information for TS1+futs on input line 32.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fourier/ts1futs.fd
-File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
- []
+Class scrartcl Warning: Incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input line 27.
 
+(./Financial Basics.toc
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 75.
+(Font)              scaled to size 10.07397pt on input line 3.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 75.
+(Font)              scaled to size 7.63599pt on input line 3.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 75.
+(Font)              scaled to size 5.51999pt on input line 3.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 75.
+(Font)              scaled to size 10.07397pt on input line 3.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 75.
+(Font)              scaled to size 7.63599pt on input line 3.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 75.
+(Font)              scaled to size 5.51999pt on input line 3.
+
 Missing character: There is no ^^L in font fourier-mex!
 [1
 
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+Package tocbasic Warning: number width of subsubsection toc entries should be increased!
+(tocbasic)                Currently used number width = 32.06158pt,
+(tocbasic)                Wanted number separation    = 3.85432pt,
+(tocbasic)                Reserved number width       = 30.83511pt on input line 41.
+
+
+Overfull \hbox (1.22647pt too wide) detected at line 41
+\T1/futs/m/n/10.95 2.10.10 
+ []
+
+[2] [3])
+\tf@toc=\write3
+\openout3 = `"Financial Basics.toc"'.
+
+LaTeX Font Info:    Trying to load font information for TS1+futs on input line 34.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/fourier/ts1futs.fd
+File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
@@ -736,18 +756,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--105
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
@@ -756,28 +776,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
-[2]
-Overfull \hbox (32.0147pt too wide) detected at line 152
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+[5]
+Overfull \hbox (32.0147pt too wide) detected at line 154
 \FML/futmi/m/it/10.95 Enterprise Value \T1/futs/m/n/10.95 = \FML/futmi/m/it/10.95 Market Value of Equity \T1/futs/m/n/10.95 + \FML/futmi/m/it/10.95 Debt \T1/futs/m/n/10.95 + \FML/futmi/m/it/10.95 Preferred Stock \T1/futs/m/n/10.95 + \FML/futmi/m/it/10.95 Minority Interest \FMS/futm/m/n/10.95 ^^@ \FML/futmi/m/it/10.95 Cash
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
@@ -786,191 +806,211 @@ Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--267
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
-
- []
-
-
-Overfull \hbox (61.71106pt too wide) detected at line 376
-\FML/futmi/m/it/10.95 Goodwill \T1/futs/m/n/10.95 = \FML/futmi/m/it/10.95 Price paid \FMS/futm/m/n/10.95 ^^@ \FML/futmi/m/it/10.95 tangible asset price \T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 the excess in the price paid when a company is acquired\T1/futs/m/n/10.95 )
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
-
- []
-
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--443
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 444--445
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--447
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 481--483
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 492--497
+Underfull \hbox (badness 10000) in paragraph at lines 323--326
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 511--512
-
- []
-
-<Figures//bank debt vs bond.png, id=37, 1206.5075pt x 721.69624pt>
-File: Figures//bank debt vs bond.png Graphic file (type png)
-<use Figures//bank debt vs bond.png>
-Package pdftex.def Info: Figures//bank debt vs bond.png  used on input line 536.
-(pdftex.def)             Requested size: 213.39568pt x 127.64221pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 542--544
-
- []
-
-[10 <./Figures//bank debt vs bond.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 553--556
-
- []
-
-[11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 696--698
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 699--700
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+
+ []
+
+[10]
+Overfull \hbox (61.71106pt too wide) detected at line 435
+\FML/futmi/m/it/10.95 Goodwill \T1/futs/m/n/10.95 = \FML/futmi/m/it/10.95 Price paid \FMS/futm/m/n/10.95 ^^@ \FML/futmi/m/it/10.95 tangible asset price \T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 the excess in the price paid when a company is acquired\T1/futs/m/n/10.95 )
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 483--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 701--702
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--504
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 513--514
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 540--542
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--556
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 703--704
+<Figures//bank debt vs bond.png, id=51, 1206.5075pt x 721.69624pt>
+File: Figures//bank debt vs bond.png Graphic file (type png)
+<use Figures//bank debt vs bond.png>
+Package pdftex.def Info: Figures//bank debt vs bond.png  used on input line 595.
+(pdftex.def)             Requested size: 213.39568pt x 127.64221pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--603
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--706
+Underfull \hbox (badness 10000) in paragraph at lines 612--615
+
+ []
+
+[14 <./Figures//bank debt vs bond.png>] [15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 755--757
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 710--711
+Underfull \hbox (badness 10000) in paragraph at lines 758--759
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 712--713
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--731
+Underfull \hbox (badness 10000) in paragraph at lines 762--763
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 734--735
+Underfull \hbox (badness 10000) in paragraph at lines 764--765
 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 780--781
-
- []
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 786--787
+Underfull \hbox (badness 10000) in paragraph at lines 769--770
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 792--793
+Underfull \hbox (badness 10000) in paragraph at lines 771--772
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 789--790
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 802--803
+Underfull \hbox (badness 10000) in paragraph at lines 793--794
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--805
+Underfull \hbox (badness 10000) in paragraph at lines 839--840
 
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 843--845
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 845--846
 
  []
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 890--891
+
+Underfull \hbox (badness 10000) in paragraph at lines 851--852
 
  []
 
-[17] [18] [19] (./Financial Basics.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 861--862
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 863--864
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 902--904
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 949--950
+
+ []
+
+[21] [22] (./Financial Basics.aux) ) 
 Here is how much of TeX's memory you used:
- 11962 strings out of 478268
- 239078 string characters out of 5846348
- 692543 words of memory out of 5000000
- 29988 multiletter control sequences out of 15000+600000
+ 11985 strings out of 478268
+ 239683 string characters out of 5846348
+ 699579 words of memory out of 5000000
+ 30008 multiletter control sequences out of 15000+600000
  552197 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,20n,106p,10678b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on "Financial Basics.pdf" (19 pages, 253067 bytes).
+ 108i,20n,106p,10678b,605s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb>
+Output written on "Financial Basics.pdf" (22 pages, 283492 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 115 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

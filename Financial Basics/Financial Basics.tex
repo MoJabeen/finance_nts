@@ -24,6 +24,8 @@
 
 \maketitle % Print the title
 
+\tableofcontents
+
 \section{Reports}
 
 \subsubsection{What is a 10-K?}
@@ -196,14 +198,75 @@ EBITDA and free cash flow represent money available to repay debt or equity, a v
 
 \subsection{Discounted Cash Flow model}
 
+Valuation method, estimate value of investment based on expected future cash flow.\\ 
+
+Assumes the time value of money, cash received today is better than cash received tomorrow as it will have been invested for a day.\\
+
+Finds the present value of future cash flows (which are worth less than current cash) using a discount rate.
+
 \begin{dmath}
 Free\:cash\:flow = EBIT*(1-tax\:rate) + (depreciation\:and\:amortization) - 
 capital\:expenditures - the\:change\:in\:net\:working\:capital.
 \end{dmath}
 
-\textbf{Weighted Average Cost of Capital == WACC}
+\begin{equation}
+	DCF = \frac{CF_1}{1+r} + \frac{CF_2}{(1+r)^2} + \frac{CF_n}{(1+r)^n}
+\end{equation}
+
+\begin{itemize}
+	\item CF: Cash flow for year
+	\item r: Discount rate
+\end{itemize}
+
+Generally the weighted average cost of capital is used as the discount rate.
 
 \[ Enterprise\:Value = Final\:Cash\:Flow(CF)/(1+WACC) + CF2/(1+WACC)^2 \]
+
+\subsubsection{What is Weighted Average Cost of Capital}
+
+Average after tax cost of capital from all sources, average rate a company will pay to finance its assets.\\
+
+A combination of the cost of equity, debt and tax rate.
+
+\subsubsection{How do you calculate WACC ?}
+
+\begin{equation}
+	WACC = (\frac{E}{V}*Re) + (\frac{D}{V}*Rd*(1-Tc))
+\end{equation}
+
+\begin{itemize}
+	\item E: Market value of firms equity
+	\item D: Market value of firms debt
+	\item V: E + D
+	\item Re: Cost of equity
+	\item Rd: Cost of debt
+	\item Tc: Tax Rate 
+\end{itemize}
+
+\subsubsection{Cost of equity}
+
+The cost of equity is the return required on a share for the investors to keep the current price of the shares.\\
+
+Use Capital Asset Pricing Model for cost of equity.
+
+\textbf{Cost of debt (bonds and securities):} Average yield to maturity (YTM) for a companies outstanding debt.
+
+\[ YTM = \frac{Coupon\;Payment + Face\;Value}{Market\;Price} \]
+
+\subsubsection{What is Capital Asset Pricing Model?}
+
+Company specific risk is ignored and systematic of the market and the companies sensitivity to it is focused on.
+
+\begin{equation}
+	Cost\;of\;Equity = Risk\;free\;rate + \beta * ERP
+\end{equation}
+
+\begin{itemize}
+	\item Beta: A companies volatility (sensitivity to market risk)
+	\item ERP: Equity risk premium, Risk in investing in equities vs risk free securities
+\end{itemize}
+
+Essentially the risk level multiplied by expected return for buying a risky security.
 
 \subsubsection{How do you estimate free cash flows beyond 5 years ?}
 
@@ -215,11 +278,7 @@ Two methods: Terminal growth multiple or Perpetuity method
 
 Terminal multiple method, assign valuation multiple to final year projection and use that as the terminal value.
 
-\subsubsection{How do you calculate WACC ?}
 
-The overall cost of a company raising new capital, which also is a representation of the riskiness of investment in the company.
-
-TODO: Add more
 
 \subsubsection{Explain net working capital ?}
 
